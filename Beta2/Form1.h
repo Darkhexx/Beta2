@@ -59,9 +59,7 @@ namespace CppCLRWinFormsProject {
 			this->button4 = (gcnew System::Windows::Forms::Button());
 			this->button3 = (gcnew System::Windows::Forms::Button());
 			this->SuspendLayout();
-			// 
-			// button1
-			// 
+			
 			this->button1->Cursor = System::Windows::Forms::Cursors::Hand;
 			this->button1->Location = System::Drawing::Point(36, 100);
 			this->button1->Name = L"button1";
@@ -70,9 +68,7 @@ namespace CppCLRWinFormsProject {
 			this->button1->Text = L"Promedio";
 			this->button1->UseVisualStyleBackColor = true;
 			this->button1->Click += gcnew System::EventHandler(this, &Form1::button1_Click);
-			// 
-			// button2
-			// 
+			
 			this->button2->Cursor = System::Windows::Forms::Cursors::Hand;
 			this->button2->Location = System::Drawing::Point(36, 129);
 			this->button2->Name = L"button2";
@@ -81,9 +77,7 @@ namespace CppCLRWinFormsProject {
 			this->button2->Text = L"Temperatura";
 			this->button2->UseVisualStyleBackColor = true;
 			this->button2->Click += gcnew System::EventHandler(this, &Form1::button2_Click);
-			// 
-			// label1
-			// 
+			
 			this->label1->AutoSize = true;
 			this->label1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 24, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
@@ -93,9 +87,7 @@ namespace CppCLRWinFormsProject {
 			this->label1->TabIndex = 2;
 			this->label1->Text = L"Nakstar";
 			this->label1->Click += gcnew System::EventHandler(this, &Form1::label1_Click);
-			// 
-			// label3
-			// 
+			
 			this->label3->AutoSize = true;
 			this->label3->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 8.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
@@ -104,9 +96,7 @@ namespace CppCLRWinFormsProject {
 			this->label3->Size = System::Drawing::Size(87, 13);
 			this->label3->TabIndex = 4;
 			this->label3->Text = L"Equipo 4 epoans";
-			// 
-			// button4
-			// 
+			
 			this->button4->Cursor = System::Windows::Forms::Cursors::Hand;
 			this->button4->Location = System::Drawing::Point(36, 187);
 			this->button4->Name = L"button4";
@@ -115,9 +105,7 @@ namespace CppCLRWinFormsProject {
 			this->button4->Text = L"Creditos";
 			this->button4->UseVisualStyleBackColor = true;
 			this->button4->Click += gcnew System::EventHandler(this, &Form1::button4_Click);
-			// 
-			// button3
-			// 
+			
 			this->button3->Cursor = System::Windows::Forms::Cursors::Hand;
 			this->button3->Location = System::Drawing::Point(36, 158);
 			this->button3->Name = L"button3";
@@ -126,9 +114,7 @@ namespace CppCLRWinFormsProject {
 			this->button3->Text = L"button3";
 			this->button3->UseVisualStyleBackColor = true;
 			this->button3->Click += gcnew System::EventHandler(this, &Form1::button3_Click);
-			// 
-			// Form1
-			// 
+			
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->ClientSize = System::Drawing::Size(284, 261);
