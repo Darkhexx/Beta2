@@ -1,7 +1,7 @@
 #pragma once
 
 namespace Beta2 {
-https://github.com/Darkhexx/Beta2/blob/master/Beta2/Temperatura.h
+
 	using namespace System;
 	using namespace System::ComponentModel;
 	using namespace System::Collections;
