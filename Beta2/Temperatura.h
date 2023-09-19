@@ -1,7 +1,7 @@
 #pragma once
 
 namespace Beta2 {
-
+https://github.com/Darkhexx/Beta2/blob/master/Beta2/Temperatura.h
 	using namespace System;
 	using namespace System::ComponentModel;
 	using namespace System::Collections;
@@ -67,27 +67,21 @@ namespace Beta2 {
 			this->celciusAKelvinToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
 			this->menuStrip1->SuspendLayout();
 			this->SuspendLayout();
-			// 
-			// A
-			// 
+			
 			this->A->Location = System::Drawing::Point(23, 65);
 			this->A->MaxLength = 4;
 			this->A->Name = L"A";
 			this->A->Size = System::Drawing::Size(57, 20);
 			this->A->TabIndex = 1;
 			this->A->TextChanged += gcnew System::EventHandler(this, &Temperatura::A_TextChanged);
-			// 
-			// R
-			// 
+			
 			this->R->Enabled = false;
 			this->R->Location = System::Drawing::Point(23, 115);
 			this->R->MaxLength = 4;
 			this->R->Name = L"R";
 			this->R->Size = System::Drawing::Size(57, 20);
 			this->R->TabIndex = 3;
-			// 
-			// label1
-			// 
+			
 			this->label1->AutoSize = true;
 			this->label1->Location = System::Drawing::Point(20, 99);
 			this->label1->Name = L"label1";
@@ -95,27 +89,21 @@ namespace Beta2 {
 			this->label1->TabIndex = 4;
 			this->label1->Text = L"Resultado";
 			this->label1->Click += gcnew System::EventHandler(this, &Temperatura::label1_Click);
-			// 
-			// label2
-			// 
+			
 			this->label2->AutoSize = true;
 			this->label2->Location = System::Drawing::Point(20, 49);
 			this->label2->Name = L"label2";
 			this->label2->Size = System::Drawing::Size(61, 13);
 			this->label2->TabIndex = 5;
 			this->label2->Text = L"Convercion";
-			// 
-			// menuStrip1
-			// 
+			
 			this->menuStrip1->Items->AddRange(gcnew cli::array< System::Windows::Forms::ToolStripItem^  >(1) { this->gradosToolStripMenuItem });
 			this->menuStrip1->Location = System::Drawing::Point(0, 0);
 			this->menuStrip1->Name = L"menuStrip1";
 			this->menuStrip1->Size = System::Drawing::Size(284, 24);
 			this->menuStrip1->TabIndex = 6;
 			this->menuStrip1->Text = L"menuStrip1";
-			// 
-			// gradosToolStripMenuItem
-			// 
+			
 			this->gradosToolStripMenuItem->DropDownItems->AddRange(gcnew cli::array< System::Windows::Forms::ToolStripItem^  >(6) {
 				this->celciusAFarengeighToolStripMenuItem,
 					this->farengeighACelciusToolStripMenuItem, this->kelvinAFarengeighToolStripMenuItem, this->kelvinACelciusToolStripMenuItem, this->farengeighAKelvinToolStripMenuItem,
@@ -125,51 +113,37 @@ namespace Beta2 {
 			this->gradosToolStripMenuItem->Size = System::Drawing::Size(56, 20);
 			this->gradosToolStripMenuItem->Text = L"Grados";
 			this->gradosToolStripMenuItem->Click += gcnew System::EventHandler(this, &Temperatura::gradosToolStripMenuItem_Click);
-			// 
-			// celciusAFarengeighToolStripMenuItem
-			// 
+			
 			this->celciusAFarengeighToolStripMenuItem->Name = L"celciusAFarengeighToolStripMenuItem";
 			this->celciusAFarengeighToolStripMenuItem->Size = System::Drawing::Size(183, 22);
 			this->celciusAFarengeighToolStripMenuItem->Text = L"Celcius a Farengeigh";
 			this->celciusAFarengeighToolStripMenuItem->Click += gcnew System::EventHandler(this, &Temperatura::celciusAFarengeighToolStripMenuItem_Click);
-			// 
-			// farengeighACelciusToolStripMenuItem
-			// 
+			
 			this->farengeighACelciusToolStripMenuItem->Name = L"farengeighACelciusToolStripMenuItem";
 			this->farengeighACelciusToolStripMenuItem->Size = System::Drawing::Size(183, 22);
 			this->farengeighACelciusToolStripMenuItem->Text = L"Farengeigh a Celcius";
 			this->farengeighACelciusToolStripMenuItem->Click += gcnew System::EventHandler(this, &Temperatura::farengeighACelciusToolStripMenuItem_Click);
-			// 
-			// kelvinAFarengeighToolStripMenuItem
-			// 
+			
 			this->kelvinAFarengeighToolStripMenuItem->Name = L"kelvinAFarengeighToolStripMenuItem";
 			this->kelvinAFarengeighToolStripMenuItem->Size = System::Drawing::Size(183, 22);
 			this->kelvinAFarengeighToolStripMenuItem->Text = L"Kelvin a Farengeigh";
 			this->kelvinAFarengeighToolStripMenuItem->Click += gcnew System::EventHandler(this, &Temperatura::kelvinAFarengeighToolStripMenuItem_Click);
-			// 
-			// kelvinACelciusToolStripMenuItem
-			// 
+			
 			this->kelvinACelciusToolStripMenuItem->Name = L"kelvinACelciusToolStripMenuItem";
 			this->kelvinACelciusToolStripMenuItem->Size = System::Drawing::Size(183, 22);
 			this->kelvinACelciusToolStripMenuItem->Text = L"Kelvin a Celcius";
 			this->kelvinACelciusToolStripMenuItem->Click += gcnew System::EventHandler(this, &Temperatura::kelvinACelciusToolStripMenuItem_Click);
-			// 
-			// farengeighAKelvinToolStripMenuItem
-			// 
+			
 			this->farengeighAKelvinToolStripMenuItem->Name = L"farengeighAKelvinToolStripMenuItem";
 			this->farengeighAKelvinToolStripMenuItem->Size = System::Drawing::Size(183, 22);
 			this->farengeighAKelvinToolStripMenuItem->Text = L"Farengeigh a Kelvin";
 			this->farengeighAKelvinToolStripMenuItem->Click += gcnew System::EventHandler(this, &Temperatura::farengeighAKelvinToolStripMenuItem_Click);
-			// 
-			// celciusAKelvinToolStripMenuItem
-			// 
+			 
 			this->celciusAKelvinToolStripMenuItem->Name = L"celciusAKelvinToolStripMenuItem";
 			this->celciusAKelvinToolStripMenuItem->Size = System::Drawing::Size(183, 22);
 			this->celciusAKelvinToolStripMenuItem->Text = L"Celcius a Kelvin";
 			this->celciusAKelvinToolStripMenuItem->Click += gcnew System::EventHandler(this, &Temperatura::celciusAKelvinToolStripMenuItem_Click);
-			// 
-			// Temperatura
-			// 
+			
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->ClientSize = System::Drawing::Size(284, 261);
