@@ -86,14 +86,10 @@ namespace Beta2 {
 			this->PR = (gcnew System::Windows::Forms::TextBox());
 			this->button1 = (gcnew System::Windows::Forms::Button());
 			this->SuspendLayout();
-			// 
-			// contextMenuStrip1
-			// 
+			
 			this->contextMenuStrip1->Name = L"contextMenuStrip1";
 			this->contextMenuStrip1->Size = System::Drawing::Size(61, 4);
-			// 
-			// label1
-			// 
+			 
 			this->label1->AutoSize = true;
 			this->label1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
@@ -103,9 +99,7 @@ namespace Beta2 {
 			this->label1->TabIndex = 2;
 			this->label1->Text = L"Promedio Calculator";
 			this->label1->Click += gcnew System::EventHandler(this, &Promedio::label1_Click);
-			// 
-			// label2
-			// 
+			
 			this->label2->AutoSize = true;
 			this->label2->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
@@ -115,9 +109,7 @@ namespace Beta2 {
 			this->label2->TabIndex = 4;
 			this->label2->Text = L"Resultado";
 			this->label2->Click += gcnew System::EventHandler(this, &Promedio::label2_Click);
-			// 
-			// label3
-			// 
+			
 			this->label3->AutoSize = true;
 			this->label3->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
@@ -126,9 +118,7 @@ namespace Beta2 {
 			this->label3->Size = System::Drawing::Size(154, 16);
 			this->label3->TabIndex = 5;
 			this->label3->Text = L"Sistemas de informacion";
-			// 
-			// label4
-			// 
+			
 			this->label4->AutoSize = true;
 			this->label4->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
@@ -137,9 +127,7 @@ namespace Beta2 {
 			this->label4->Size = System::Drawing::Size(43, 16);
 			this->label4->TabIndex = 6;
 			this->label4->Text = L"Fisica";
-			// 
-			// label5
-			// 
+			
 			this->label5->AutoSize = true;
 			this->label5->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
@@ -148,9 +136,7 @@ namespace Beta2 {
 			this->label5->Size = System::Drawing::Size(62, 16);
 			this->label5->TabIndex = 7;
 			this->label5->Text = L"Robotica";
-			// 
-			// label6
-			// 
+			
 			this->label6->AutoSize = true;
 			this->label6->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
@@ -159,9 +145,7 @@ namespace Beta2 {
 			this->label6->Size = System::Drawing::Size(46, 16);
 			this->label6->TabIndex = 8;
 			this->label6->Text = L"Dibujo";
-			// 
-			// Matematicas
-			// 
+			
 			this->Matematicas->Location = System::Drawing::Point(110, 61);
 			this->Matematicas->MaxLength = 4;
 			this->Matematicas->Name = L"Matematicas";
@@ -169,9 +153,7 @@ namespace Beta2 {
 			this->Matematicas->TabIndex = 9;
 			this->Matematicas->UseWaitCursor = true;
 			this->Matematicas->TextChanged += gcnew System::EventHandler(this, &Promedio::textBox1_TextChanged_1);
-			// 
-			// button2
-			// 
+			 
 			this->button2->Cursor = System::Windows::Forms::Cursors::Hand;
 			this->button2->Location = System::Drawing::Point(197, 240);
 			this->button2->Name = L"button2";
@@ -180,43 +162,33 @@ namespace Beta2 {
 			this->button2->Text = L"Calcular";
 			this->button2->UseVisualStyleBackColor = true;
 			this->button2->Click += gcnew System::EventHandler(this, &Promedio::button2_Click);
-			// 
-			// Fisica
-			// 
+			
 			this->Fisica->Location = System::Drawing::Point(67, 90);
 			this->Fisica->MaxLength = 4;
 			this->Fisica->Name = L"Fisica";
 			this->Fisica->Size = System::Drawing::Size(37, 20);
 			this->Fisica->TabIndex = 15;
 			this->Fisica->TextChanged += gcnew System::EventHandler(this, &Promedio::textBox2_TextChanged);
-			// 
-			// SI
-			// 
+			
 			this->SI->Location = System::Drawing::Point(180, 115);
 			this->SI->MaxLength = 4;
 			this->SI->Name = L"SI";
 			this->SI->Size = System::Drawing::Size(37, 20);
 			this->SI->TabIndex = 16;
 			this->SI->TextChanged += gcnew System::EventHandler(this, &Promedio::textBox3_TextChanged);
-			// 
-			// R
-			// 
+			
 			this->R->Location = System::Drawing::Point(88, 141);
 			this->R->MaxLength = 4;
 			this->R->Name = L"R";
 			this->R->Size = System::Drawing::Size(37, 20);
 			this->R->TabIndex = 17;
-			// 
-			// D
-			// 
+			 
 			this->D->Location = System::Drawing::Point(72, 167);
 			this->D->MaxLength = 4;
 			this->D->Name = L"D";
 			this->D->Size = System::Drawing::Size(37, 20);
 			this->D->TabIndex = 18;
-			// 
-			// label7
-			// 
+			
 			this->label7->AutoSize = true;
 			this->label7->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
@@ -225,9 +197,7 @@ namespace Beta2 {
 			this->label7->Size = System::Drawing::Size(84, 16);
 			this->label7->TabIndex = 19;
 			this->label7->Text = L"Matematicas";
-			// 
-			// PR
-			// 
+			
 			this->PR->Enabled = false;
 			this->PR->Location = System::Drawing::Point(95, 223);
 			this->PR->MaxLength = 4;
@@ -235,9 +205,7 @@ namespace Beta2 {
 			this->PR->Size = System::Drawing::Size(37, 20);
 			this->PR->TabIndex = 20;
 			this->PR->TextChanged += gcnew System::EventHandler(this, &Promedio::PR_TextChanged);
-			// 
-			// button1
-			// 
+			
 			this->button1->Cursor = System::Windows::Forms::Cursors::Hand;
 			this->button1->Location = System::Drawing::Point(197, 279);
 			this->button1->Name = L"button1";
@@ -246,9 +214,7 @@ namespace Beta2 {
 			this->button1->Text = L"Limpiadr";
 			this->button1->UseVisualStyleBackColor = true;
 			this->button1->Click += gcnew System::EventHandler(this, &Promedio::button1_Click);
-			// 
-			// Promedio
-			// 
+			
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->ClientSize = System::Drawing::Size(284, 314);
